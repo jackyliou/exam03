@@ -305,7 +305,7 @@ void getAcc(Arguments *in, Reply *out) {
 
    float velocity;
 
-  velocity = sqrt(t[0]*t[0]+t[1]*t[1])*0.1;
+  velocity = sqrt(t[0]*t[0]+t[1]*t[1])*0.1*9.8;
 
    pc.printf("Velocity = %1.4f",\
 
